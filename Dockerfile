@@ -10,7 +10,7 @@ WORKDIR /app
 COPY . /app
 
 # Expose port
-EXPOSE 2020
+EXPOSE 1010
 
 # Start the server
-CMD ["http-server", "./", "-p", "2020"]
+CMD ["http-server", "./", "-p", "1010"]
